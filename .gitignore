@@ -1,0 +1,72 @@
+# Maven
+target/
+*.jar
+*.war
+
+# Frontend
+admin/node_modules/
+admin/dist/
+admin/*.tsbuildinfo
+admin/vite.config.js
+admin/vite.config.d.ts
+staff/node_modules/
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Claude
+.claude/
+.agents/
+
+# Local worktrees
+.worktrees/
+
+# Temp
+*.tmp
+*.bak
+
+# Build and Release Folders
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# 额外前端依赖与构建产物
+user-web/node_modules/
+user-app/node_modules/
+ecg-system/node_modules/
+user-web/dist/
+user-app/dist/
+user-app/unpackage/
+ecg-system/dist/
+
+# 归档与体积大的文档(不推仓库)
+源码归档/
+文档/
+.git.bak/
+
+# 临时文件
+~$*
+加载中...

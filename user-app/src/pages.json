@@ -1,0 +1,364 @@
+{
+	"pages": [
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"navigationBarTitleText": "熙心健康",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/packages/packages",
+			"style": {
+				"navigationBarTitleText": "体检套餐",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/appointment/list",
+			"style": {
+				"navigationBarTitleText": "我的预约",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "熙心健康",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/packages/detail",
+			"style": {
+				"navigationBarTitleText": "套餐详情",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/appointment/create",
+			"style": {
+				"navigationBarTitleText": "填写预约",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/appointment/detail",
+			"style": {
+				"navigationBarTitleText": "预约详情",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/payment",
+			"style": {
+				"navigationBarTitleText": "支付",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/list",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/report/list",
+			"style": {
+				"navigationBarTitleText": "体检报告",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/report/detail",
+			"style": {
+				"navigationBarTitleText": "报告详情",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/guide/index",
+			"style": {
+				"navigationBarTitleText": "体检导诊",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/consult/index",
+			"style": {
+				"navigationBarTitleText": "在线咨询",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/notification/list",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/notification/detail",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "联系客服",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/profile/list",
+			"style": {
+				"navigationBarTitleText": "就诊人档案",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/profile/detail",
+			"style": {
+				"navigationBarTitleText": "个人档案",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/profile/edit",
+			"style": {
+				"navigationBarTitleText": "编辑档案",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/questionnaire/index",
+			"style": {
+				"navigationBarTitleText": "检前问卷",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/preparation/index",
+			"style": {
+				"navigationBarTitleText": "检前准备",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"statusbar": {
+						"style": "dark"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/agreement/user-agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/agreement/privacy-policy",
+			"style": {
+				"navigationBarTitleText": "隐私政策",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/forgot-password/forgot",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#94a3b8",
+		"selectedColor": "#0ea5e9",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "static/tab_home_selected.png",
+				"selectedIconPath": "static/tab_home_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/packages/packages",
+				"iconPath": "static/tab_pkg_selected.png",
+				"selectedIconPath": "static/tab_pkg_selected.png",
+				"text": "套餐"
+			},
+			{
+				"pagePath": "pages/appointment/list",
+				"iconPath": "static/tab_appt_selected.png",
+				"selectedIconPath": "static/tab_appt_selected.png",
+				"text": "预约"
+			},
+			{
+				"pagePath": "pages/tabbar/mine/mine",
+				"iconPath": "static/tab_mine_selected.png",
+				"selectedIconPath": "static/tab_mine_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "熙心健康",
+		"navigationBarBackgroundColor": "#17191c",
+		"backgroundColor": "#ffffff"
+	},
+	"uniIdRouter": {}
+}

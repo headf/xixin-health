@@ -1,0 +1,38 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "name": "home", "meta": { "title": "首页", "tabBar": true, "tabIdx": 0 } },
+    { "path": "pages/packages/packages", "name": "packages", "meta": { "title": "体检套餐", "tabBar": true, "tabIdx": 1 } },
+    { "path": "pages/appointment/list", "name": "appointments", "meta": { "title": "我的预约", "tabBar": true, "tabIdx": 2 } },
+    { "path": "pages/tabbar/mine/mine", "name": "mine", "meta": { "title": "我的", "tabBar": true, "tabIdx": 3 } },
+    { "path": "pages/login/login", "name": "login", "meta": { "title": "登录" } },
+    { "path": "pages/register/register", "name": "register", "meta": { "title": "注册" } },
+    { "path": "pages/packages/detail", "name": "packageDetail", "meta": { "title": "套餐详情" } },
+    { "path": "pages/appointment/create", "name": "appointmentCreate", "meta": { "title": "填写预约" } },
+    { "path": "pages/appointment/detail", "name": "appointmentDetail", "meta": { "title": "预约详情" } },
+    { "path": "pages/order/list", "name": "orders", "meta": { "title": "订单管理" } },
+    { "path": "pages/order/detail", "name": "orderDetail", "meta": { "title": "订单详情" } },
+    { "path": "pages/order/payment", "name": "orderPayment", "meta": { "title": "支付" } },
+    { "path": "pages/report/list", "name": "reports", "meta": { "title": "体检报告" } },
+    { "path": "pages/report/detail", "name": "reportDetail", "meta": { "title": "报告详情" } },
+    { "path": "pages/notification/list", "name": "notifications", "meta": { "title": "消息通知" } },
+    { "path": "pages/profile/list", "name": "profiles", "meta": { "title": "就诊人档案" } },
+    { "path": "pages/profile/detail", "name": "profileDetail", "meta": { "title": "个人档案" } },
+    { "path": "pages/profile/edit", "name": "profileEdit", "meta": { "title": "编辑档案" } },
+    { "path": "pages/guide/index", "name": "guide", "meta": { "title": "体检导诊" } }
+  ],
+  "tabBar": {
+    "color": "#777b86",
+    "selectedColor": "#17191c",
+    "backgroundColor": "#ffffff",
+    "list": [
+      { "pagePath": "pages/index/index", "icon": "🏠", "text": "首页" },
+      { "pagePath": "pages/packages/packages", "icon": "📦", "text": "套餐" },
+      { "pagePath": "pages/appointment/list", "icon": "📋", "text": "预约" },
+      { "pagePath": "pages/tabbar/mine/mine", "icon": "👤", "text": "我的" }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f7f7f8"
+  }
+}

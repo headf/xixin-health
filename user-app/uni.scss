@@ -1,0 +1,148 @@
+/**
+ * 熙心健康 · 用户端移动 App — 设计系统 v4.0
+ * 极简柔和风格 — 低饱和度，高可读性
+ */
+
+/* ===== 品牌色（低饱和度） ===== */
+$brand-primary: #7c9fff;       /* 柔和蓝 — 主色/CTA按钮 */
+$brand-primary-dark: #6388e6;  /* 柔和深蓝 — 按压态/强调 */
+$brand-primary-light: #eef1ff; /* 极浅蓝 — 背景/标签 */
+$brand-secondary: #7cb8a0;     /* 柔和青绿 — 辅助色 */
+
+/* ===== 功能色（低饱和度） ===== */
+$color-success: #7cb88a;       /* 柔和绿 — 成功/已完成 */
+$color-warning: #d4a85c;       /* 柔和琥珀 — 警告/待办 */
+$color-danger: #d47c7c;        /* 柔和红 — 危险/取消 */
+
+/* ===== 行为颜色（兼容 uni-app） ===== */
+$uni-color-primary: $brand-primary;
+$uni-color-success: $color-success;
+$uni-color-warning: $color-warning;
+$uni-color-error: $color-danger;
+
+/* ===== 文字 ===== */
+$uni-text-color: #2c3e50;           /* 主要文字 — 柔和黑 */
+$uni-text-color-inverse: #ffffff;   /* 反色 */
+$uni-text-color-grey: #7a8ca0;      /* 辅助文字 */
+$uni-text-color-placeholder: #a0b0c0; /* 占位 */
+$uni-text-color-disable: #d0d8e0;   /* 禁用 */
+
+/* ===== 背景 ===== */
+$uni-bg-color: #ffffff;
+$uni-bg-color-grey: #f7f9fc;        /* 页面背景 */
+$uni-bg-color-hover: #f0f2f5;
+$uni-bg-color-mask: rgba(30, 40, 60, 0.4);
+
+/* ===== 边框 ===== */
+$uni-border-color: #e2e8f0;
+
+/* ===== 字号 ===== */
+$uni-font-size-sm: 26rpx;   /* 13px - 辅助 */
+$uni-font-size-base: 28rpx; /* 14px - 正文 */
+$uni-font-size-lg: 32rpx;   /* 16px - 强调 */
+
+/* 扩展字号 */
+$text-caption: 24rpx;       /* 12px */
+$text-body: 28rpx;          /* 14px */
+$text-body-lg: 30rpx;       /* 15px */
+$text-subheading: 34rpx;    /* 17px */
+$text-heading-sm: 40rpx;    /* 20px */
+$text-heading: 48rpx;       /* 24px */
+
+/* ===== 图片 ===== */
+$uni-img-size-sm: 40rpx;
+$uni-img-size-base: 48rpx;
+$uni-img-size-lg: 72rpx;
+
+/* ===== 圆角 ===== */
+$uni-border-radius-sm: 12rpx;    /* 6px */
+$uni-border-radius-base: 20rpx;  /* 10px */
+$uni-border-radius-lg: 28rpx;    /* 14px */
+$uni-border-radius-circle: 50%;
+$uni-border-radius-pill: 9999px;
+
+/* ===== 间距 ===== */
+$uni-spacing-row-sm: 12rpx;
+$uni-spacing-row-base: 24rpx;
+$uni-spacing-row-lg: 36rpx;
+$uni-spacing-col-sm: 8rpx;
+$uni-spacing-col-base: 16rpx;
+$uni-spacing-col-lg: 28rpx;
+
+/* ===== CSS 自定义属性 ===== */
+:root {
+  /* 品牌色（柔和） */
+  --brand: #7c9fff;
+  --brand-dark: #6388e6;
+  --brand-light: #eef1ff;
+  --brand-bg: #f5f7ff;
+  --secondary: #7cb8a0;
+  --secondary-light: #e0f5ec;
+
+  --success: #7cb88a;
+  --success-bg: #e8f5ec;
+  --warning: #d4a85c;
+  --warning-bg: #fdf5e8;
+  --danger: #d47c7c;
+  --danger-bg: #fdecec;
+  --info: #7c9fff;
+  --info-bg: #eef1ff;
+
+  /* 文字 */
+  --text: #2c3e50;
+  --text-secondary: #7a8ca0;
+  --text-placeholder: #a0b0c0;
+  --text-disabled: #d0d8e0;
+  --text-white: #ffffff;
+
+  /* 表面 */
+  --surface: #ffffff;
+  --surface-page: #f7f9fc;
+  --surface-card: #ffffff;
+  --surface-hover: #f0f2f5;
+  --surface-mask: rgba(30, 40, 60, 0.4);
+
+  /* 边框 */
+  --border: #e2e8f0;
+  --border-light: #f0f2f5;
+
+  /* 字体 */
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+
+  /* 字号 */
+  --text-caption: 24rpx;
+  --text-body: 28rpx;
+  --text-body-lg: 30rpx;
+  --text-subheading: 34rpx;
+  --text-heading-sm: 40rpx;
+  --text-heading: 48rpx;
+
+  /* 间距 */
+  --spacing-2: 4rpx;
+  --spacing-4: 8rpx;
+  --spacing-6: 12rpx;
+  --spacing-8: 16rpx;
+  --spacing-10: 20rpx;
+  --spacing-12: 24rpx;
+  --spacing-14: 28rpx;
+  --spacing-16: 32rpx;
+  --spacing-20: 40rpx;
+  --spacing-24: 48rpx;
+  --spacing-32: 64rpx;
+
+  /* 圆角 */
+  --radius-tag: 9999px;
+  --radius-card: 24rpx;
+  --radius-image: 12rpx;
+  --radius-input: 20rpx;
+  --radius-avatar: 9999px;
+  --radius-button: 9999px;
+
+  /* 阴影层级 */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.05), 0 2px 4px rgba(0,0,0,0.03);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.08), 0 4px 8px rgba(0,0,0,0.04);
+
+  /* 状态栏 */
+  --status-bar-height: 48px;
+}
